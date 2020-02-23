@@ -9,7 +9,7 @@ spec:
     - ReadWriteMany
   capacity:
     storage: 10Gi
-  persistentVolumeClaimPolicy: Retain
+  persistentVolumeReclaimPolicy: Retain
   hostPath:
     path: /data/jenkins-volume/
-    
+
